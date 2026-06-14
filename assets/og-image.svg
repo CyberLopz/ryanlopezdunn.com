@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Ryan Lopez-Dunn cybersecurity portfolio visual</title>
+  <desc id="desc">A dark security operations dashboard style graphic with identity, endpoint, and detection signals.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071014"/>
+      <stop offset="0.55" stop-color="#0d1f27"/>
+      <stop offset="1" stop-color="#10222a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38d6a5"/>
+      <stop offset="1" stop-color="#4bb3fd"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <path d="M84 116h1032v398H84z" fill="#0b171d" stroke="#27424b" stroke-width="2" filter="url(#softShadow)"/>
+  <path d="M84 116h1032v58H84z" fill="#102832"/>
+  <circle cx="128" cy="145" r="9" fill="#38d6a5"/>
+  <circle cx="160" cy="145" r="9" fill="#4bb3fd"/>
+  <circle cx="192" cy="145" r="9" fill="#7cf0c8"/>
+  <text x="240" y="154" fill="#edf7fa" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Ryan Lopez-Dunn · Security Engineer</text>
+  <g fill="none" stroke="#254650" stroke-width="1">
+    <path d="M130 230h230M130 280h230M130 330h230M130 380h230M130 430h230"/>
+    <path d="M420 230h300M420 280h300M420 330h300M420 380h300M420 430h300"/>
+    <path d="M790 230h270M790 280h270M790 330h270M790 380h270M790 430h270"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="130" y="218" fill="#7cf0c8" font-size="18" font-weight="700">IDENTITY</text>
+    <text x="420" y="218" fill="#7cf0c8" font-size="18" font-weight="700">ENDPOINT</text>
+    <text x="790" y="218" fill="#7cf0c8" font-size="18" font-weight="700">DETECTION</text>
+    <text x="130" y="266" fill="#a9bdc5" font-size="20">Entra ID</text>
+    <text x="130" y="316" fill="#a9bdc5" font-size="20">Conditional Access</text>
+    <text x="130" y="366" fill="#a9bdc5" font-size="20">MFA</text>
+    <text x="420" y="266" fill="#a9bdc5" font-size="20">Defender for Endpoint</text>
+    <text x="420" y="316" fill="#a9bdc5" font-size="20">Incident Response</text>
+    <text x="420" y="366" fill="#a9bdc5" font-size="20">Endpoint Security</text>
+    <text x="790" y="266" fill="#a9bdc5" font-size="20">KQL Hunting</text>
+    <text x="790" y="316" fill="#a9bdc5" font-size="20">Cisco Umbrella</text>
+    <text x="790" y="366" fill="#a9bdc5" font-size="20">Risk Reviews</text>
+  </g>
+  <path d="M130 466h930" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#38d6a5">
+    <circle cx="220" cy="466" r="9"/>
+    <circle cx="510" cy="466" r="9"/>
+    <circle cx="825" cy="466" r="9"/>
+    <circle cx="1002" cy="466" r="9"/>
+  </g>
+</svg>
