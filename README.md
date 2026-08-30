@@ -8,7 +8,6 @@ A static cybersecurity portfolio and resume website for Ryan Lopez-Dunn, Securit
 - `styles.css` - Responsive dark cybersecurity theme with accessible contrast.
 - `script.js` - Mobile navigation, sticky header state, current year, and reduced-motion-friendly reveal behavior.
 - `assets/og-image.svg` - Lightweight security-themed visual used by the hero panel and Open Graph metadata.
-- `resume.pdf` - Add this at the project root so the resume buttons can link to `/resume.pdf`.
 
 ## Local Preview
 
@@ -39,16 +38,6 @@ http://localhost:8000
    - Build output directory: `/`
 7. Deploy the site.
 8. Add the custom domain `ryanlopezdunn.com` in the Cloudflare Pages domain settings.
-
-## Resume
-
-Place your PDF resume at:
-
-```text
-resume.pdf
-```
-
-The site already includes resume download links that point to `/resume.pdf`.
 
 ## Customization
 
