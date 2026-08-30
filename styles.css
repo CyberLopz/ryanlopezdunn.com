@@ -402,6 +402,82 @@ h3 {
   margin: 0.75rem 0 0;
 }
 
+.experience-list {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.experience-card {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.55fr) minmax(0, 1fr);
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.experience-meta h3 {
+  margin: 0 0 0.35rem;
+}
+
+.experience-org,
+.experience-dates {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.experience-dates {
+  margin-top: 0.2rem;
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.experience-card ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+  display: grid;
+  gap: 0.6rem;
+}
+
+.cert-status {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid rgba(75, 179, 253, 0.45);
+  border-radius: 999px;
+  background: rgba(75, 179, 253, 0.12);
+  color: var(--blue);
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.tools-strip {
+  margin-top: 2.25rem;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.85rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tag {
+  padding: 0.4rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
 .project-list {
   display: grid;
   gap: 1rem;
@@ -533,7 +609,8 @@ h3 {
 
   .hero-grid,
   .about-layout,
-  .project-card {
+  .project-card,
+  .experience-card {
     grid-template-columns: 1fr;
   }
 
