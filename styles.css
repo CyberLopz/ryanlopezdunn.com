@@ -390,6 +390,38 @@ h3 {
   padding: 1.25rem;
 }
 
+.cert-card {
+  text-decoration: none;
+}
+
+.cert-card-badge {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  transition: border-color 160ms ease, background 160ms ease;
+}
+
+.cert-card-badge:hover,
+.cert-card-badge:focus-visible {
+  border-color: rgba(124, 240, 200, 0.72);
+  background: rgba(56, 214, 165, 0.08);
+  outline: none;
+}
+
+.cert-badge {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.cert-card p.cert-date {
+  margin: 0.2rem 0 0.6rem;
+  color: var(--blue);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
 .skill-card p,
 .cert-card p,
 .project-card p,
