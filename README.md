@@ -25,22 +25,17 @@ Then visit:
 http://localhost:8000
 ```
 
-## Deploying With Cloudflare Pages
+## Deploying With GitHub Pages
 
-1. Push this folder to a GitHub repository.
-2. In Cloudflare, open **Workers & Pages**.
-3. Choose **Create application**.
-4. Select **Pages**.
-5. Connect the GitHub repository.
-6. Set the build configuration:
-   - Framework preset: `None`
-   - Build command: leave blank
-   - Build output directory: `/`
-7. Deploy the site.
-8. Add the custom domain `ryanlopezdunn.com` in the Cloudflare Pages domain settings.
+This site is served by GitHub Pages, building from the `main` branch.
+
+1. In the repository, open **Settings → Pages**.
+2. Under **Build and deployment**, set **Source** to `Deploy from a branch`.
+3. Set the branch to `main` and the folder to `/ (root)`.
+4. The custom domain `ryanlopezdunn.com` is already configured via the `CNAME` file in this repo.
+5. Every push to `main` triggers an automatic rebuild and deploy.
 
 ## Customization
 
-- Replace the LinkedIn placeholder in `index.html` when the profile URL is ready.
 - Add certification names to the Certifications section as needed.
 - Replace `assets/og-image.svg` with a custom PNG preview image if a social platform requires PNG-only Open Graph images.
